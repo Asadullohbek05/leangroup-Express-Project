@@ -1,14 +1,14 @@
 import { Component, Fragment } from "react";
-import Header from "../header/Header";
-import Footer from "../footer/Footer";
-import Backtop from "../backtop/Backtop";
+import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
+import Backtop from "../Back-Top/Backtop";
 
 export class Layout extends Component {
   render() {
     return (
       <Fragment>
         <Header />
-        {this.props.children}
+        <main>{this.props.children}</main>
         <Footer />
         <Backtop />
       </Fragment>
