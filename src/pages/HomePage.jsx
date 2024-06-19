@@ -1,4 +1,7 @@
 import React, { Component, Fragment } from "react";
+
+import { toast } from "react-toastify";
+
 import OurTeam from "../components/Our-Team/OurTeam";
 import News from "./../components/News/News";
 import Navbar from "./../components/Navbar/Navbar";
@@ -11,7 +14,6 @@ import About from "../components/About/About";
 import Sertificates from "../components/Sertificates/Sertificates";
 import Contact from "../components/Contact/Contact";
 import Footer from "../components/Footer/Footer";
-import { toast } from "react-toastify";
 
 export class HomePage extends Component {
   state = {
