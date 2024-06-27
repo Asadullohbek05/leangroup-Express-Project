@@ -18,13 +18,12 @@
     width: 100%;
     height: auto;
     display: flex;
-    // flex-wrap: wrap;
     justify-content: space-between;
     gap: 5px;
     margin-bottom: 32px;
     .our-team__card {
       width: 100%;
-      max-width: 20%;
+      max-width: 203px;
       height: auto;
       text-align: center;
       img {
